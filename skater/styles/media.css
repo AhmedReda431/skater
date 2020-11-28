@@ -1,0 +1,70 @@
+@media (max-width: 767.98px) {
+  .title {
+    font-size: 30px;
+  }
+  nav{
+      padding: 20px 26px;
+  }
+  nav .navBar .hidden-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+  }
+  nav .navBar .links ul {
+    display: block;
+  }
+  nav .navBar .links {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    
+  }
+  nav .navBar .links ul li {
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding: 10px 20px;
+    position: relative;
+    right: -200px;
+    transition: right 500ms ease-in;
+    border-bottom: 4px solid #000;
+    font-size: 15px;
+  }
+  nav .navBar .links ul li.active {
+    right: -10px;
+  }
+  .card-price {
+    margin-bottom: 20px;
+  }
+  .testimonial .carousel-inner ul {
+    display: block !important;
+  }
+  
+  .testimonial .test-holder .person-details {
+    padding: 20px 40px 71px;
+  }
+  .carousel-indicators{
+      width: 78% !important;
+  }
+  .testimonial .test-holder .carousel-inner .person-img{
+      width: 100%;
+  }
+  .form-info{
+      margin-bottom: 30px;
+  }
+  .siteMap .section-desc{
+      width: 95%;
+      margin-top: 25px;
+  }
+  .team{
+    display: none;
+  }
+}
+
+@media (min-width:893px) and (max-width: 1200px){
+    .siteMap .section-desc{
+        font-size: 17px;
+    }
+}
